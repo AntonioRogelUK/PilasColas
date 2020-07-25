@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PilasColas", "PilasColas\Pi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arreglos", "Arreglos\Arreglos.csproj", "{89992F27-AC88-40B7-ACDA-2AFEDD93455C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Listas", "Listas\Listas.csproj", "{C2D59E4C-2320-4A2E-8421-041164FBF97A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{89992F27-AC88-40B7-ACDA-2AFEDD93455C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{89992F27-AC88-40B7-ACDA-2AFEDD93455C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{89992F27-AC88-40B7-ACDA-2AFEDD93455C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2D59E4C-2320-4A2E-8421-041164FBF97A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2D59E4C-2320-4A2E-8421-041164FBF97A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2D59E4C-2320-4A2E-8421-041164FBF97A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2D59E4C-2320-4A2E-8421-041164FBF97A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

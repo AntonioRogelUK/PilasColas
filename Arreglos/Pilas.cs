@@ -4,13 +4,13 @@ using System.Text;
 
 namespace Arreglos
 {
-    public class ArrayPilas
+    public class Pilas
     {
         private string[] array;
         private int max;
         private int tope;
 
-        public ArrayPilas(int tamanio)
+        public Pilas(int tamanio)
         {
             this.array = new string[tamanio];
             this.tope = 0;
