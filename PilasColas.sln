@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.30011.22
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PilasColas", "PilasColas\PilasColas.csproj", "{A4CAE2B0-E083-47B7-99EB-C218A054D671}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arreglos", "Arreglos\Arreglos.csproj", "{89992F27-AC88-40B7-ACDA-2AFEDD93455C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{A4CAE2B0-E083-47B7-99EB-C218A054D671}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A4CAE2B0-E083-47B7-99EB-C218A054D671}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A4CAE2B0-E083-47B7-99EB-C218A054D671}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89992F27-AC88-40B7-ACDA-2AFEDD93455C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89992F27-AC88-40B7-ACDA-2AFEDD93455C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89992F27-AC88-40B7-ACDA-2AFEDD93455C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89992F27-AC88-40B7-ACDA-2AFEDD93455C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
