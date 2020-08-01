@@ -19,6 +19,23 @@ namespace Listas
 
         private bool ValidaVacio() 
         {
+            //Regresa bool con if
+            //if (lista.Count == 0) 
+            //{
+            //    return true;
+            //}
+            //else 
+            //{
+            //    return false;
+            //}
+            
+            //Regresa bool con un operador ternario
+            //return (lista.Count == 0) ? true : false;
+
+            //If es una operacion booleana,
+            //si la condicion se cumple, regresa true
+            //si no se cumple regresa false
+            //por lo tanto, se puede simplificar de la siguiente manera
             return (lista.Count == 0);
         }
         
