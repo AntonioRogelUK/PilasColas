@@ -8,7 +8,7 @@ namespace PilasColas
     {
         static void Main(string[] args)
         {
-            ListasPilas();
+            ListasColas();
         }
 
         static void ArregloPilas() 
@@ -66,7 +66,7 @@ namespace PilasColas
         {
             try
             {
-                Colas colas = new Colas(5);
+                Arreglos.Colas colas = new Arreglos.Colas(5);
 
                 Console.WriteLine(colas.Imprimir());
                 colas.Agregar("Cero");
@@ -161,6 +161,59 @@ namespace PilasColas
                 Console.WriteLine("---------");
                 pila.Eliminar();
                 Console.WriteLine(pila.Imprimir());
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
+        }
+        static void ListasColas()
+        {
+            try
+            {
+                Listas.Colas colas = new Listas.Colas();
+
+                Console.WriteLine(colas.Imprimir());
+                colas.Agregar("Cero");
+                Console.WriteLine(colas.Imprimir());
+
+                Console.WriteLine("---------");
+                colas.Agregar("Uno");
+                Console.WriteLine(colas.Imprimir());
+
+                Console.WriteLine("---------");
+                colas.Agregar("Dos");
+                Console.WriteLine(colas.Imprimir());
+
+                Console.WriteLine("---------");
+                colas.Agregar("Tres");
+                Console.WriteLine(colas.Imprimir());
+
+                Console.WriteLine("---------");
+                colas.Agregar("Cuatro");
+                Console.WriteLine(colas.Imprimir());
+
+
+                Console.WriteLine("---------");
+                colas.Eliminar();
+                Console.WriteLine(colas.Imprimir());
+
+                Console.WriteLine("---------");
+                colas.Eliminar();
+                Console.WriteLine(colas.Imprimir());
+
+                Console.WriteLine("---------");
+                colas.Eliminar();
+                Console.WriteLine(colas.Imprimir());
+
+                Console.WriteLine("---------");
+                colas.Eliminar();
+                Console.WriteLine(colas.Imprimir());
+
+                Console.WriteLine("---------");
+                colas.Eliminar();
+                Console.WriteLine(colas.Imprimir());
+
             }
             catch (Exception ex)
             {
